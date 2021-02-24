@@ -228,12 +228,13 @@ footer {
   color: rgba(230, 197, 11, 0.863)!important;
 }
 
-/* .title {
-  margin-bottom: 40px;
-  font: 50px "Oswald";
+h1 {
+  padding: 10px;
+  font: 30px "Roboto Condensed";
   text-transform: uppercase;
-  text-shadow: 0px 0px 5px black;
-} */
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
 
 .carousel-item {
   height: 100%;
@@ -249,26 +250,18 @@ footer {
   padding: 40px;
 }
 
-h3 {
-  padding: 10px;
-  font: 30px "Roboto Condensed";
-  text-transform: uppercase;
-  color: white;
-  text-shadow: 0px 0px 10px black;
-}
-
 .tipo-servicio {
   padding: 25px;
 }
 
-.animado {
+/* .animado {
   opacity: 0;
-  transition: all 2s;
+  transition: all 1s;
 }
 
 .mostrarArriba {
   animation: mostrarArriba 2s;
-}
+} */
 
 .caja {
   margin: 20px 0px;
@@ -359,11 +352,11 @@ h3 {
 
 /* 3.ANIMATIONS */
 
-@keyframes mostrarArriba {
+/* @keyframes mostrarArriba {
   0% {
-    transform: translateY(80px);
+    transform: translateY(60px);
   }
   100% {
     transform: translateY(0);
   }
-}
+} */
