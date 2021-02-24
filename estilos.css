@@ -1,10 +1,9 @@
 /* 
     GUÍA DE ESTILOS
     0. RESET
-    1. LAYOUT
-    2. GENERIC ITEMS
-    3. PARTS OF THE WEB
-    4. ANIMATIONS
+    1. BLOQUES
+    2. ELEMENTOS
+    3. ANIMATIONS
     ------------------------
     COLORES
     color1 -> 
@@ -143,56 +142,118 @@ table {
   border-spacing: 0;
 }
 
-/* 1.LAYOUT */
+/* 1.BLOQUES */
 
 body {
 text-align: center;
 font: 300 20px/1.7 "Roboto Condensed";
 }
 
-#menu {
-background-color: gold;
-color: white;
+.navbar {
+background-color: white;
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-.row{
+.row {
   margin-right: 0px;
 }
 
-.container-fluid{
+.container-fluid {
   padding-right: 0px;
 }
 
-
-/* 2.GENERIC ITEMS */
-
-.header {
-    height: 200px;
-    background: black;
+.container {
+  padding-right: 0px;
 }
 
-.title {
+.content {
+  padding: 60px 0px;
+}
+
+.who {
+  background-color: darkcyan;
+  /* background-image: url(img/8.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
+  color:white;
+}
+
+.services {
+  /* background-image: url(img/6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center; */
+  background-color: black;
+  color: white;
+}
+
+.contact {
+  /* background-color: gold; */
+  background-image: url(img/6.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  height: 300px;
+}
+
+footer {
+  font-size:medium;
+  background-color: black;
+  color: white;
+  height: auto;
+}
+
+/* 2.ELEMENTOS */
+
+.area-top {
+  padding-left: 160px;
+  padding-right: 120px;
+}
+
+.logoMenu {
+  max-height:55px;
+}
+
+.nav-link {
+  color: black!important;
+  margin-left: 20px;
+}
+
+.nav-link:hover {
+  color: rgba(230, 197, 11, 0.863)!important;
+}
+
+/* .title {
   margin-bottom: 40px;
   font: 50px "Oswald";
   text-transform: uppercase;
   text-shadow: 0px 0px 5px black;
-}
+} */
 
 .carousel-item {
   height: 100%;
-  max-height: 400px;
+  max-height: 450px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
 
+.quienes-somos {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
 h3 {
   padding: 10px;
-  font-size: 30px;
-  color: yellowgreen;
+  font: 30px "Roboto Condensed";
+  text-transform: uppercase;
+  color: white;
   text-shadow: 0px 0px 10px black;
 }
 
@@ -202,11 +263,11 @@ h3 {
 
 .animado {
   opacity: 0;
-  transition: all 1s;
+  transition: all 2s;
 }
 
 .mostrarArriba {
-  animation: mostrarArriba 1s;
+  animation: mostrarArriba 2s;
 }
 
 .caja {
@@ -215,7 +276,7 @@ h3 {
 
 .borde-caja {
   border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 10px white;
 }
 
 .img-servicio {
@@ -223,10 +284,8 @@ h3 {
 }
 
 .card-header {
-  color: gold;
   text-transform: uppercase;
   border-bottom: 0.3px solid white;
-  
 }
 
 .contenido-caja-contacto {
@@ -234,36 +293,7 @@ h3 {
   text-align: left;
 }
 
-/* 3.PARTS OF THE WEB */
-
-.content {
-padding: 80px 0px;
-}
-
-.inicio {
-  padding: 40px 0px;
-  background-color:black;
-}
-
-.who {
-  background-color: grey;
-  color: white;
-}
-
-.services {
-  background-image: url(img/4.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
-
-.contact {
-  background-color: grey;
-  color: white;
-}
-
-.caja-formulario {
+/* .caja-formulario {
   padding: 20px;
   background-color: black; 
 }
@@ -271,37 +301,37 @@ padding: 80px 0px;
 .form-group {
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-footer {
-  font-size: small;
-  background-color: black;
-  color: white;
-  min-height: 50px;
-}
-
-.ubicacion {
-  padding: 10px;
+.contenedor-footer {
   margin-top: 20px;
+}
+
+.contenido-footer {
+  margin-top: 10px;
 }
 
 .ubicacion a{
   text-decoration: none;
   color: white;
+  font-size: large;
 }
 
-.redes {
-  margin-top: 25px;
+.icono-redes {
+  margin-left: 5px;
 }
 
-.redes a{
-  padding: 5px;
+.icono-redes:hover {
+  opacity: 85%;
+}
+
+.footer-principal {
+  min-height: 250px;
 }
 
 .footer-legal {
   font-size: x-small;
-  padding-bottom: 10px;
-  padding-top: 30px;
+  margin-top: 20px;
 }
 
 .footer-legal a {
@@ -327,11 +357,11 @@ footer {
   opacity: 85%;
 }
 
-/* 4.ANIMATIONS */
+/* 3.ANIMATIONS */
 
 @keyframes mostrarArriba {
   0% {
-    transform: translateY(60px);
+    transform: translateY(80px);
   }
   100% {
     transform: translateY(0);

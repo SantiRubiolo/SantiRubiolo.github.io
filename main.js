@@ -4,7 +4,6 @@ function cerrarMenu() {
   }
 
 let animado = document.querySelectorAll(".animado");
-
 function mostrarScroll() {
   let scrollTop = document.documentElement.scrollTop;
   
@@ -16,7 +15,6 @@ function mostrarScroll() {
     }
   }
 }
-
 window.addEventListener('scroll', mostrarScroll)
 
 // $(document).ready(function(){
