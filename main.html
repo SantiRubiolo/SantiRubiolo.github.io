@@ -92,7 +92,6 @@
                         </div>
                         <div class="col-md-12 col-lg-5">
                             <ul class="actividades">
-                                
                                 <li>• Recepción y Embarque de camiones en plantas de acopios y/o terminales portuarias</li>
                                 <li>• Despachos Aduaneros</li>
                                 <li>• Asesoramientos Jurídicos</li>
@@ -294,7 +293,7 @@
         <div class="container">
             <div class="row ">
                 <div class="col"> 
-                <h4>¡ESTAMOS A TU DISPOSICIÓN PARA AYUDARTE EN LO QUE NECESITES!</h4>
+                <h4>¡ESTAMOS PARA AYUDARTE EN LO QUE NECESITES!</h4>
                 </div>
             </div>
         </div>
@@ -305,62 +304,76 @@
 
     <section class="content contact" id="contact">
         <div class="container">
+
+
             <div class="row">
-                <div class="col-md-6 col-lg-3 caja-formulario">
-                    <h4>T E L E F O N O</h4>
-                    <ul>
-                        <li><img src="img/telefono.png" height="20px" alt="Telefono"> 0983724445</li>
-                        <li><img src="img/telefono.png" height="20px" alt="Telefono"> 0981346808</li>
-                    </ul>
+
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="col-sm-6 col-lg-6 caja-contacto">
+                            <h4>T E L E F O N O</h4>
+                                <ul>
+                                    <li><img src="img/telefono.png" height="15px" alt="Telefono"> 0983724445</li>
+                                    <li><img src="img/telefono.png" height="15px" alt="Telefono"> 0981346808</li>
+                                </ul>                                                    
+                        </div>
+        
+                        <div class="col-sm-6 col-lg-12 caja-contacto">
+                            <h4>D I R E C C I O N</h4>
+                            <p>Galeria Palmares- Salon N°11 <br> 
+                                Avda. Doctor Amado Benitez Gamarra y Avda. San Jose <br>
+                                Área-1 Ciudad del Este, Paraguay</p>
+                        </div>
+        
+                        <div class="col-sm-6 col-lg-6 caja-contacto">
+                            <h4>E M A I L</h4>
+                            <img src="img//email.png" height="20px" alt="Email"> mcs@megacontrol.com.py
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-6 col-lg-5 caja-formulario">
-                    <h4>D I R E C C I O N</h4>
-                    <p>Galeria Palmares- Salon N°11 <br> 
-                        Avda. Doctor Amado Benitez Gamarra y Avda. San Jose <br>
-                        Área-1 Ciudad del Este, Paraguay</p>
-                </div>
+                <div class="col-lg-6">
 
-                <div class="col-md-12 col-lg-3 caja-formulario">
-                    <h4>E M A I L</h4>
-                    <img src="img//email.png" height="20px" alt="Email"> mcs@megacontrol.com.py
+                    <form method="POST" action="formulario.php">
+                        <div class="caja-formulario">
+                            <div class="row ">
+                                <div class="col-sm-12 col-md-6 col-lg-12">
+                                    <div class="form-group">
+                                        <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
+                                    </div>
+                                </div>
+            
+                                <div class="col-sm-12 col-md-6 col-lg-12">
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                                    </div>
+                                </div>
+            
+                                <div class="col col-lg-12">
+                                    <div class="form-group">
+                                        <textarea class="form-control" name="mensaje" rows="5" placeholder="Dejanos tu consulta"required></textarea>
+                                    </div>
+                                </div>  
+            
+                            </div>
+            
+                            <div class="row">
+                                <div class="col col-lg-6 text-left small">
+                                    <p><img src="img/info.png" height="10px" alt="info"> Todos los campos son requeridos</p>
+                                </div>
+                                <div class="col col-lg-6 text-right">
+                                    <input type="submit" name="enviar" class="btn btn-secondary" value="Enviar">
+                                </div>
+                            </div>
+             
+                        </div>  
+                    </form>   
+
                 </div>
             </div>
 
-              
+
         
-        <form method="POST" action="formulario.php">
-            <div class="caja-formulario">
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="form-group">
-                            <input type="text" name="nombre" class="form-control" placeholder="Nombre" required>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-md-6">
-                        <div class="form-group">
-                            <input type="email" name="email" class="form-control" placeholder="Email" required>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="form-group">
-                            <textarea class="form-control" name="mensaje" rows="5" placeholder="Dejanos tu consulta"required></textarea>
-                        </div>
-                    </div>                 
-                </div>  
-                <div class="row">
-                    <div class="col">
-                        <input type="submit" name="enviar" class="btn btn-secondary" value="Enviar">
-                    </div>
-                </div>
-                
-
-            </div>  
-        </form>   
     </div>
     </section>
 
@@ -377,10 +390,7 @@
                         <div class="navegacion contenedor-footer">
                             <h4>CONTACTANOS</h4>
                             <div class="contenido-footer">
-                                <p>
-                                    <img src="img/email.png" height="12px" alt="WhatsApp"> mcs@megacontrol.com.py <br>
-                                    <img src="img/telefono.png" height="12px" alt="Telefono"> +595 09454 44545                       
-                                </p>
+                               
                             </div>
                         </div>
                     </div>

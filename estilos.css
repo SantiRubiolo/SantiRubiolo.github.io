@@ -216,7 +216,7 @@ html {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 330px;
+  height: 250px;
 }
 
 .contact {
@@ -381,10 +381,12 @@ h4 {
 
 .caja-contacto {
   text-align: left;
+  padding: 30px;
+  border-left: 1px solid black;
 }
 
 .caja-formulario {
-  padding: 45px;
+  padding-top: 60px;
 }
 
 .form-group {
