@@ -12,6 +12,12 @@
     color3 -> 
     color4 ->
     color5 ->
+    ------------------------
+    FUENTES
+    fuente1 -> Open Sans
+    fuente2 -> Roboto
+    fuente3 -> Roboto Condensed
+    fuente4 -> Hind Madurai
 */
 
 /* 0.RESET */
@@ -145,16 +151,6 @@ table {
 
 /* 1.BLOQUES */
 
-body {
-text-align: center;
-font: 300 16px/1.7 "Open Sans";
-}
-
-.navbar {
-  background-color: black;
-  font: 20px "Hind Madurai";
-}
-
 html {
   scroll-behavior: smooth;
 }
@@ -178,16 +174,30 @@ html {
   padding: 120px 0px;
 }
 
+body {
+  text-align: center;
+  font: 300 15px/1.7 "Open Sans";
+  letter-spacing: 0.2px;
+}
+
+.navbar {
+  background-color: black;
+  font: 20px "Hind Madurai";
+ }
+
+.inicio {
+  background-color: black;
+  color: white;
+}
+
 .inter-inicio-quienes {
-  background-image: url(img/1.jpg);
+  background-image: url(img/9.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  position: relative;
-  min-height: 400px;
   color:white;
-  display: flex;
-  align-items: center;
+  padding: 40px 0px;
+  position: relative;
 }
 
 .inter-inicio-quienes::before {
@@ -197,16 +207,17 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(16, 16, 16, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
 }
 
-.who {
+.quienes {
   background-color: rgb(230, 230, 230);
-  color: rgb(107, 107, 107);
+  color: rgb(65, 65, 65);
+  border-bottom: 1px solid rgb(199, 199, 199);
 }
 
 .services {
-  background-color: white ;
+  background-color: rgb(230, 230, 230);;
   color: black;
 }
 
@@ -216,12 +227,7 @@ html {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 250px;
-}
-
-.contact {
-  background-color: rgb(230, 230, 230);
-  color: black;
+  padding: 70px 0px;
 }
 
 .inter-servicio-contacto::before {
@@ -231,28 +237,32 @@ html {
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(16, 16, 16, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.contacto {
+  background-color: rgb(230, 230, 230);
+  color: black;
 }
 
 footer {
-  font: 300 18px/1.5 "Roboto Condensed";
+  font: 300 17px/1.5 "Open Sans";
   background-color: black;
   color: white;
-  height: auto;
 }
 
 /* 2.ELEMENTOS */
 
 h1 {
-  margin-bottom: 30px;
   font: 40px "Hind Madurai";
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 h2 {
   font: 35px "Hind Madurai";
   color: currentColor;
-  padding: 10px;
+  padding: 20px;
 }
 
 h3 {
@@ -261,14 +271,11 @@ h3 {
   padding:20px;
 }
 
-h4 {
-  font: 20px "Hind Madurai";
-  color: currentColor;
-}
-
 .area-top {
   padding-left: 160px;
   padding-right: 120px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .navbar-brand {
@@ -278,16 +285,15 @@ h4 {
 .nav-link {
   color: white!important;
   margin-left: 20px;
-  transition: 0.6s;
+  transition: 0.7s;
 }
 
 .nav-link:hover {
-  color: yellowgreen!important;
+  color: rgb(255, 168, 158)!important;
 }
 
 .carousel-item {
-  height: 100%;
-  max-height: 460px;
+  max-height: 450px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
@@ -298,17 +304,8 @@ h4 {
   border-radius: 100%;
 }
 
-.items-inicio {
-  background-color: black;
-  color: white;
-  justify-content: center;
-  padding: 20px;
-  border-bottom: 0.5px solid rgb(155, 155, 155);
-  border-top: 0.5px solid rgb(155, 155, 155);
-}
-
-.actividades { 
-  text-align: left;
+.inter-iq { 
+ padding: 20px;
 }
 
 .quienes-somos {
@@ -381,17 +378,12 @@ h4 {
 
 .caja-contacto {
   text-align: left;
-  padding: 30px;
+  padding: 35px;
   border-left: 1px solid black;
 }
 
 .caja-formulario {
   padding-top: 60px;
-}
-
-.form-group {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .contenedor-footer {
@@ -400,6 +392,8 @@ h4 {
 
 .contenido-footer {
   margin-top: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 .ubicacion a{
@@ -414,6 +408,10 @@ h4 {
 
 .icono-redes:hover {
   opacity: 85%;
+}
+
+.f-interes {
+  padding: 5px;
 }
 
 .footer-principal {

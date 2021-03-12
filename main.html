@@ -9,12 +9,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- NAVEGACIÓN -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+    <nav class="navbar navbar-expand-lg sticky-top">
         <div class="container-fluid area-top">       
             <a class="navbar-brand" href="#">Mega Control Service S.A</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,9 +22,9 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">     
                     <a class="nav-link" href="#" onclick="cerrarMenu()">Inicio</a>
-                    <a class="nav-link" href="#who" onclick="cerrarMenu()">Quienes Somos</a>
+                    <a class="nav-link" href="#quienes" onclick="cerrarMenu()">Quienes Somos</a>
                     <a class="nav-link" href="#services" onclick="cerrarMenu()">Servicios</a>
-                    <a class="nav-link" href="#contact" onclick="cerrarMenu()">Contacto</a>
+                    <a class="nav-link" href="#contacto" onclick="cerrarMenu()">Contacto</a>
                 </div>
             </div>
         </div>
@@ -42,13 +41,13 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                        <img class="d-block w-100" src="img/6.jpg" alt="First slide">
+                            <img class="d-block w-100" src="img/3.jpg" alt="First slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/7.jpg" alt="Second slide">
+                            <img class="d-block w-100" src="img/5.jpg" alt="Second slide">
                         </div>
                         <div class="carousel-item">
-                        <img class="d-block w-100" src="img/3.jpg" alt="Third slide">
+                            <img class="d-block w-100" src="img/6.jpg" alt="Third slide">
                         </div>
                     </div>
                     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -60,38 +59,29 @@
                         <span class="sr-only">Next</span>
                     </a>
             </div>
-
             <div class="container-fluid">
-                <div class="row items-inicio">            
-                    <div class="col-md-12 col-lg-10">
-                        <h2>Megacontrol Service S.A. ha desarrollado soluciones para dar soporte a las empresas líderes en el rubro.</h2>
+                <div class="row justify-content-center">            
+                    <div class="col p-4">
+                        <h3>Megacontrol Service S.A. ha desarrollado soluciones para dar soporte a las empresas líderes en el rubro.</h3>
                     </div>
                 </div>
             </div>
-            
-
         </div>
-
     </section>
 
-    <!-- INTER -->
-
+    <!-- INTER-IQ -->
     <section class="inter-inicio-quienes">
         <div class="container">
-            <div class="row">
-                <div class="col-md-10 col-lg-10 mr-auto ml-auto">
-                    <h2>Realizamos las siguientes actividades</h2>
+            <div class="row align-items-center">
+                <div class="col-md-6 col-lg-8 text-left p-4">
+                    <h3>Realizamos las siguientes actividades</h3>
                     <div class="row">
-                        <div class="col-md-12 col-lg-7">
-                            <ul class="actividades">
+                        <div class="col">
+                            <ul>
                                 <li>• Clasificación de Granos y Oleaginosas</li>
-                                <li>• Levantamiento de Stock Físico (cubicaje)</li>
+                                <li>• Levantamiento de Stock Físico (cubicaje)</li> 
                                 <li>• Inventario en silos y puertos (capacidad estática)</li>
-                                <li>• Actividades de monitoreo de existencia de mercaderías en general</li>
-                            </ul>
-                        </div>
-                        <div class="col-md-12 col-lg-5">
-                            <ul class="actividades">
+                                <li>• Actividades de monitoreo de existencia de mercaderías en general</li> 
                                 <li>• Recepción y Embarque de camiones en plantas de acopios y/o terminales portuarias</li>
                                 <li>• Despachos Aduaneros</li>
                                 <li>• Asesoramientos Jurídicos</li>
@@ -99,13 +89,17 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="col-md-6 col-lg-4 p-4">
+                    <h3>¡Conoce más sobre los servicios que ofrecemos!</h3>
+                    <a href="#services" class="btn btn-outline-light btn-lg">Servicios</a>
+                </div>
             </div>
         </div>
     </section>
-
-
+    
     <!-- QUIENES SOMOS -->
-    <section class="content who" id="who">
+    <section class="content quienes" id="quienes">
         <h1>Quienes Somos</h1>
         <div class="container">
             <div class="row">
@@ -302,32 +296,29 @@
 
     <!-- CONTACTO -->
 
-    <section class="content contact" id="contact">
+    <section class="content contacto" id="contacto">
         <div class="container">
-
-
             <div class="row">
-
                 <div class="col-lg-6">
                     <div class="row">
                         <div class="col-sm-6 col-lg-6 caja-contacto">
-                            <h4>T E L E F O N O</h4>
+                            <h4><img src="img/telefono.png" height="15px" alt="Telefono"> T E L E F O N O</h4>
                                 <ul>
-                                    <li><img src="img/telefono.png" height="15px" alt="Telefono"> 0983724445</li>
-                                    <li><img src="img/telefono.png" height="15px" alt="Telefono"> 0981346808</li>
+                                    <li>+959 0983724445</li>
+                                    <li>+959 0981346808</li>
                                 </ul>                                                    
                         </div>
         
                         <div class="col-sm-6 col-lg-12 caja-contacto">
-                            <h4>D I R E C C I O N</h4>
-                            <p>Galeria Palmares- Salon N°11 <br> 
+                            <h4><img src="img/lugar2.png" height="15px" alt="Ubicación"> D I R E C C I O N</h4>
+                            <p>Galeria Palmares - Salon N°11 <br>
                                 Avda. Doctor Amado Benitez Gamarra y Avda. San Jose <br>
                                 Área-1 Ciudad del Este, Paraguay</p>
                         </div>
         
                         <div class="col-sm-6 col-lg-6 caja-contacto">
-                            <h4>E M A I L</h4>
-                            <img src="img//email.png" height="20px" alt="Email"> mcs@megacontrol.com.py
+                            <h4><img src="img//email.png" height="15px" alt="Email"> E M A I L</h4>
+                             mcs@megacontrol.com.py
                         </div>
                     </div>
                 </div>
@@ -351,7 +342,7 @@
             
                                 <div class="col col-lg-12">
                                     <div class="form-group">
-                                        <textarea class="form-control" name="mensaje" rows="5" placeholder="Dejanos tu consulta"required></textarea>
+                                        <textarea class="form-control" name="mensaje" rows="5" placeholder="Dejanos tu consulta" required></textarea>
                                     </div>
                                 </div>  
             
@@ -362,19 +353,16 @@
                                     <p><img src="img/info.png" height="10px" alt="info"> Todos los campos son requeridos</p>
                                 </div>
                                 <div class="col col-lg-6 text-right">
-                                    <input type="submit" name="enviar" class="btn btn-secondary" value="Enviar">
+                                    <input type="submit" name="enviar" class="btn btn-outline-dark" value="Enviar">
                                 </div>
                             </div>
              
                         </div>  
-                    </form>   
+                    </form>
 
                 </div>
             </div>
-
-
-        
-    </div>
+        </div>
     </section>
 
 
@@ -387,10 +375,15 @@
                 <div class="row">
 
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="navegacion contenedor-footer">
-                            <h4>CONTACTANOS</h4>
+                        <div class="contenedor-footer">
+                            <h4>NAVEGACION</h4>
                             <div class="contenido-footer">
-                               
+                                <ul>
+                                    <li><a class="text-decoration-none text-white" href="#inicio">Inicio</a></li>
+                                    <li><a class="text-decoration-none text-white" href="#quienes">Quienes Somos</a></li>
+                                    <li><a class="text-decoration-none text-white" href="#services">Servicios</a></li>
+                                    <li><a class="text-decoration-none text-white" href="#contacto">Contacto</a></li>
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -399,28 +392,32 @@
                         <div class="ubicacion contenedor-footer">
                             <h4>UBICACION</h4>
                             <div class="contenido-footer">
-                                Oficina con sede en Ciudad del Este <br>
-                                <a href="https://www.google.com/maps/place/Cd.+del+Este,+Paraguay/@-25.4930301,-54.8117569,11z/data=!3m1!4b1!4m5!3m4!1s0x94f68499feb6b1d1:0xce33cb9eeb700b1e!8m2!3d-25.4987076!4d-54.6636526" target="_blank">
-                                <img src="img/lugar.png" height="15px" alt="Ubicación"> Ciudad del Este, Paraguay</a>
+                                <ul>
+                                    <li> Oficina con sede en Ciudad del Este</li>
+                                    <li><a href="https://www.google.com/maps/place/Cd.+del+Este,+Paraguay/@-25.4930301,-54.8117569,11z/data=!3m1!4b1!4m5!3m4!1s0x94f68499feb6b1d1:0xce33cb9eeb700b1e!8m2!3d-25.4987076!4d-54.6636526" target="_blank">
+                                    <img src="img/lugar.png" height="15px" alt="Ubicación"> Ciudad del Este, Paraguay</a></li>
+                                </ul>
                             </div>                            
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="redes contenedor-footer">
-                            <h4>REDES SOCIALES</h4>
-                            <div class="contenido-footer"> 
-
-   
-                            </div>
+                        <div class="contenedor-footer">
+                            <h4>INTERESES</h4>
+                            <div class="contenido-footer">
+                                <ul>
+                                    <li class="f-interes"><a href="https://www.capeco.org/inicio" class="btn btn-outline-light" target="_blank">Capeco</a></li>
+                                    <li class="f-interes"><a href="https://www.mercosur.int/" class="btn btn-outline-light" target="_blank">Mercosur</a></li> 
+                                </ul>
+                            </div>    
                         </div>
                     </div>
 
                     <div class="col-12 col-sm-6 col-lg-3">
-                        <div class="pagos contenedor-footer">
-                            <h4>INTERESES</h4>
+                        <div class="contenedor-footer">
+                            <h4>LOGO</h4>
                             <div class="contenido-footer">
-                                
+
                             </div>              
                         </div>
                     </div>                  
