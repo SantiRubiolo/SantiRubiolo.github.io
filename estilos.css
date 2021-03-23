@@ -191,7 +191,7 @@ body {
 }
 
 .inter-inicio-quienes {
-  background-image: url(img/9.jpg);
+  background-image: url(img/4.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -222,7 +222,7 @@ body {
 }
 
 .inter-servicio-contacto {
-  background-image: url(img/8.jpg);
+  background-image: url(img/9.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -278,6 +278,7 @@ h1 {
 }
 
 .linea span {
+  position: relative;
   background: rgb(230, 230, 230);
   padding: 0 15px;
 }
