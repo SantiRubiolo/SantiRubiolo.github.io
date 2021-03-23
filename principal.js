@@ -30,12 +30,10 @@ $(document).ready(function(){
         } 
     }); 
     $('#scroll').click(function(){ 
-        $("html, body").animate({ scrollTop: 0 }, 500); 
+        $("html, body").animate({ scrollTop: 0 }, 200); 
         return false; 
     }); 
 });
-
-
 
 
 // $(document).ready(function(){
