@@ -322,7 +322,7 @@ h3 {
 }
 
 .carousel-item {
-  max-height: 460px;
+  max-height: 480px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
@@ -383,7 +383,8 @@ h3 {
 }
 
 .img-servicio {
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
+  max-height: 350px;
 }
 
 .caja-contacto {
