@@ -176,14 +176,15 @@ html {
 
 body {
   text-align: center;
-  font: 300 15px/1.7 "Open Sans";
-  letter-spacing: 0.2px;
+  font: 17px/1.7 "Nunito";
+  letter-spacing: 0.1px;
 }
 
 .navbar {
   background-color: black;
-  font: 20px "Hind Madurai";
- }
+  font: 20px "Nunito";
+  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+}
 
 .inicio {
   background-color: black;
@@ -195,34 +196,35 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  color:white;
+  color: white;
   padding: 40px 0px;
   position: relative;
+  font: 16px/1.7 "Nunito";
 }
 
 .inter-inicio-quienes::before {
-  content:'';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .quienes {
   background-color: rgb(230, 230, 230);
-  color: rgb(55, 55, 55);
+  color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(187, 187, 187);
 }
 
 .services {
-  background-color: rgb(230, 230, 230);;
-  color: black;
+  background-color: rgb(230, 230, 230);
+  color: rgb(0, 0, 0);
 }
 
 .inter-servicio-contacto {
-  background-image: url(img/9.jpg);
+  background-image: url(img/19.1.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -231,13 +233,13 @@ body {
 }
 
 .inter-servicio-contacto::before {
-  content:'';
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .contacto {
@@ -246,7 +248,7 @@ body {
 }
 
 footer {
-  font: 300 17px/1.5 "Hind Madurai";
+  font: 300 17px/1.5 "Nunito";
   background-color: black;
   color: white;
 }
@@ -254,7 +256,7 @@ footer {
 /* 2.ELEMENTOS */
 
 h1 {
-  font: 40px "Hind Madurai";
+  font: 38px "Nunito";
   text-transform: uppercase;
   margin-bottom: 30px;
 }
@@ -265,7 +267,7 @@ h1 {
 }
 
 .linea:before {
-  border-top: 2px solid #bbbbbb;
+  border-top: 1px solid #bbbbbb;
   content: "";
   margin: 0 auto;
   position: absolute;
@@ -273,7 +275,7 @@ h1 {
   left: 0;
   right: 0;
   bottom: 0;
-  width: 40%;
+  width: 75%;
   z-index: -1;
 }
 
@@ -284,40 +286,36 @@ h1 {
 }
 
 h2 {
-  font: 35px "Hind Madurai";
+  font: 35px "Nunito";
   color: currentColor;
   padding: 20px;
 }
 
 h3 {
-  font: 25px "Open Sans";
+  font: 25px "Nunito";
   color: currentColor;
-  padding:20px;
+  padding: 20px;
 }
 
 .area-top {
-  padding-left: 160px;
-  padding-right: 120px;
+  padding-left: 140px;
+  padding-right: 100px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.navbar-brand {
-  color: white!important;
-}
-
 .nav-link {
-  color: white!important;
+  color: white !important;
   margin-left: 20px;
   transition: 0.7s;
 }
 
 .nav-link:hover {
-  color: rgb(255, 168, 158)!important;
+  color: rgb(0, 255, 0) !important;
 }
 
 .btn-menu {
-  color: #FFF;
+  color: #fff;
   font-size: 25px;
 }
 
@@ -361,6 +359,16 @@ h3 {
   left: 0;
 }
 
+.lista { 
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 18px;
+}
+
 .animado {
   opacity: 0;
   transition: all 1s;
@@ -371,20 +379,19 @@ h3 {
 }
 
 .caja {
-  font: 300 15px/1.5 'Roboto';
+  font: 300 15px/1.5 "Nunito";
   margin: 20px 0px;
-  color: white;
-  text-align: left;
 }
 
 .borde-caja {
-  border-radius: 15px 15px 15px 15px;
-  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+  border-radius: 0.6rem;
+  border: 2px solid black;
+  padding: 25px 10px 21px 10px;
 }
 
 .img-servicio {
-  border-radius: 10px 10px 10px 10px;
-  max-height: 350px;
+  border-radius: 0.6rem;
+  border: 1px solid black;
 }
 
 .caja-contacto {
@@ -394,15 +401,15 @@ h3 {
 }
 
 .btn-whatsapp {
-  display:block;
-  width:60px;
-  height:60px;
+  display: block;
+  width: 60px;
+  height: 60px;
   position: fixed;
-  right:20px;
-  bottom:20px;
-  border-radius:50%;
-  line-height:80px;
-  z-index:999;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 50%;
+  line-height: 80px;
+  z-index: 999;
   box-shadow: 1px 1px 4px black;
 }
 
@@ -412,35 +419,36 @@ h3 {
 }
 
 #scroll {
-  position:fixed;
-  right:30px;
-  bottom:100px;
-  width:40px;
-  height:40px;
-  background-color:#000000;
-  text-indent:-9999px;
-  display:none;
-  -webkit-border-radius:60px;
-  -moz-border-radius:60px;
-  border-radius:60px;
+  position: fixed;
+  right: 30px;
+  bottom: 100px;
+  width: 40px;
+  height: 40px;
+  background-color: #000000;
+  text-indent: -9999px;
+  display: none;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  border-radius: 60px;
 }
 
-#scroll span { 
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin-left:-8px;
-  margin-top:-12px;
-  height:0;
-  width:0;
-  border:8px solid transparent;
-  border-bottom-color:#ffffff;
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  height: 0;
+  width: 0;
+  border: 8px solid transparent;
+  border-bottom-color: #ffffff;
 }
 
 #scroll:hover {
-  background-color:#777777;
-  opacity:1;filter:"alpha(opacity=100)";
-  -ms-filter:"alpha(opacity=100)";
+  background-color: #777777;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
 }
 
 /* 3.ANIMATIONS */
