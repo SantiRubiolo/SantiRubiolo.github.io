@@ -213,13 +213,13 @@ body {
 }
 
 .quienes {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   border-bottom: 1px solid rgb(187, 187, 187);
 }
 
 .services {
-  background-color: rgb(230, 230, 230);
+  background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
 
@@ -281,7 +281,7 @@ h1 {
 
 .linea span {
   position: relative;
-  background: rgb(230, 230, 230);
+  background: rgb(255, 255, 255);
   padding: 0 15px;
 }
 
@@ -323,6 +323,24 @@ h3 {
   max-height: 480px;
   background: no-repeat center center scroll;
   background-size: cover;
+}
+
+.carousel-inner {
+  position: relative;
+  text-align: center;
+}
+
+.img_slide {
+  filter:brightness(0.3);
+}
+
+.titulo_slide {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font: 55px 'Antonio';
+  width: 100%;
 }
 
 .carousel-indicators li {
@@ -459,5 +477,43 @@ ol {
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .titulo_slide {
+    font-size: 22px;
+  }
+
+  .carousel-item {
+    height: 490px;
+  }
+
+  .img_slide {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .titulo_slide {
+    font-size: 35px;
+  }
+
+  .carousel-item {
+    height: 490px;
+  }
+
+  .img_slide {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .titulo_slide {
+    font-size: 45px;
   }
 }
