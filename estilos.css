@@ -320,7 +320,7 @@ h3 {
 }
 
 .carousel-item {
-  max-height: 480px;
+  height: 480px;
   background: no-repeat center center scroll;
   background-size: cover;
 }
@@ -331,7 +331,7 @@ h3 {
 }
 
 .img_slide {
-  filter:brightness(0.3);
+  filter:brightness(0.5);
 }
 
 .titulo_slide {
@@ -486,7 +486,7 @@ ol {
   }
 
   .carousel-item {
-    height: 490px;
+    height: 700px;
   }
 
   .img_slide {
@@ -502,7 +502,7 @@ ol {
   }
 
   .carousel-item {
-    height: 490px;
+    height: 700px;
   }
 
   .img_slide {
@@ -515,5 +515,15 @@ ol {
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .titulo_slide {
     font-size: 45px;
+  }
+
+  .carousel-item {
+    height: 700px;
+  }
+
+  .img_slide {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
   }
 }
