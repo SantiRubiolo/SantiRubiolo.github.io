@@ -25,14 +25,14 @@ $(document).ready(function(){
     $(window).scroll(function(){ 
         if ($(this).scrollTop() > 450) { 
             $('#scroll').fadeIn(); 
-        } else { 
+        } else {
             $('#scroll').fadeOut(); 
-        } 
-    }); 
+        }
+    });
     $('#scroll').click(function(){ 
         $("html, body").animate({ scrollTop: 0 }, 200); 
-        return false; 
-    }); 
+        return false;
+    });
 });
 
 // $(document).ready(function(){

@@ -181,17 +181,17 @@ body {
 }
 
 .navbar {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   font: 20px "Nunito";
   box-shadow: 0px 0px 5px rgb(0, 0, 0);
 }
 
 .inicio {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: white;
 }
 
-.inter-inicio-quienes {
+.inter-quienes-servicios {
   background-image: url(img/4.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -202,7 +202,7 @@ body {
   font: 16px/1.7 "Nunito";
 }
 
-.inter-inicio-quienes::before {
+.inter-quienes-servicios::before {
   content: "";
   position: absolute;
   top: 0;
@@ -331,7 +331,10 @@ h3 {
 }
 
 .img_slide {
-  filter:brightness(0.5);
+  filter:brightness(0.6);
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 .titulo_slide {
@@ -484,46 +487,16 @@ ol {
   .titulo_slide {
     font-size: 22px;
   }
-
-  .carousel-item {
-    height: 700px;
-  }
-
-  .img_slide {
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-  }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .titulo_slide {
     font-size: 35px;
   }
-
-  .carousel-item {
-    height: 700px;
-  }
-
-  .img_slide {
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .titulo_slide {
     font-size: 45px;
-  }
-
-  .carousel-item {
-    height: 700px;
-  }
-
-  .img_slide {
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
   }
 }
