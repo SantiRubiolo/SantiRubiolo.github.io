@@ -224,7 +224,7 @@ body {
 }
 
 .inter-servicio-contacto {
-  background-image: url(img/19.1.jpg);
+  background-image: url(img/9.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
@@ -311,7 +311,7 @@ h3 {
 }
 
 .nav-link:hover {
-  color: rgb(0, 255, 0) !important;
+  color: rgb(255, 248, 40) !important;
 }
 
 .btn-menu {
@@ -342,8 +342,10 @@ h3 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font: 55px 'Antonio';
+  font: 60px 'Nunito';
   width: 100%;
+  text-shadow: 3px 2px 3px rgb(0, 0, 0);
+  letter-spacing: 1.5px;
 }
 
 .carousel-indicators li {
