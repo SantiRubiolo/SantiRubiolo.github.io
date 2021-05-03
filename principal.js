@@ -2,7 +2,7 @@
 function cerrarMenu() {
     $("#navbarNavAltMarkup").removeClass("show")
   }
-  
+
 $(document).on("click", function(){cerrarMenu()});
 
 
@@ -34,8 +34,3 @@ $(document).ready(function(){
         return false;
     });
 });
-
-// $(document).ready(function(){
-//   $(this).scrollTop(0);
-
-// });
