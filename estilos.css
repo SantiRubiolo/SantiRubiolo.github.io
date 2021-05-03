@@ -353,6 +353,7 @@ h3 {
   width: 100%;
   text-shadow: 3px 2px 3px rgb(0, 0, 0);
   letter-spacing: 1.5px;
+  font-weight: bold;
 }
 
 .carousel-indicators li {
@@ -499,6 +500,7 @@ ol {
 @media screen and (max-width: 576px) {
   .titulo_slide {
     font-size: 22px;
+    font-weight: bold;
   }
   .logo {
     height: 180px;
@@ -508,6 +510,7 @@ ol {
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .titulo_slide {
     font-size: 35px;
+    font-weight: bold;
   }
   .logo {
     height: 180px;
@@ -517,5 +520,6 @@ ol {
 @media screen and (min-width: 769px) and (max-width: 992px) {
   .titulo_slide {
     font-size: 45px;
+    font-weight: bold;
   }
 }
