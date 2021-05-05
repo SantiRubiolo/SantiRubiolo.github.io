@@ -1,5 +1,4 @@
 /* 0.RESET */
-
 /* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
 
 html,
@@ -232,12 +231,6 @@ footer {
 
 /* 2.ELEMENTOS */
 
-h1 {
-  font: 38px "Nunito";
-  text-transform: uppercase;
-  margin-bottom: 30px;
-}
-
 .linea {
   position: relative;
   z-index: 1;
@@ -260,6 +253,12 @@ h1 {
   position: relative;
   background: rgb(255, 255, 255);
   padding: 0 15px;
+}
+
+h1 {
+  font: 38px "Nunito";
+  text-transform: uppercase;
+  margin-bottom: 30px;
 }
 
 h2 {
