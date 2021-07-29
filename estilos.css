@@ -228,7 +228,7 @@ footer {
 }
 
 .nav-link:hover {
-  color: rgba(230, 197, 11, 0.863)!important;
+  color: #ffc107 !important;
 }
 
 h1 {
@@ -241,9 +241,15 @@ h1 {
 
 .carousel-item {
   height: 100%;
-  max-height: 450px;
+  max-height: 430px;
   background: no-repeat center center scroll;
   background-size: cover;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
 }
 
 .quienes-somos {
