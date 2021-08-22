@@ -168,7 +168,7 @@ body {
 }
 
 .content-orange-small{
-  min-height: calc(70vh - 89px);
+  min-height: calc(75vh - 89px);
   padding: 60px 0;
   color: white;
   background: url(img/perro4.jpg);
@@ -468,13 +468,30 @@ footer{
   transition: .4s;
 }
 
+.post-caja{
+  transition: .4s;
+}
+
 .borde{
   border: 1px solid rgb(190, 190, 190);
   border-top: none;
+  transition: .4s;
 }
 
-.sombra{
-  box-shadow: 2px 8px 15px rgb(221, 221, 221);
+.post-caja:hover{
+  box-shadow: 5px 8px 15px rgb(192, 192, 192);
+  transition: .4s;
+}
+
+.post-caja:hover .borde{
+  border: 1px solid transparent;
+  border-top: none;
+  transition: .4s;
+}
+
+.img-post{
+  display: block;
+  width: 100%;
 }
 
 .info-post{
